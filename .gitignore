@@ -305,7 +305,7 @@ TSWLatexianTemp*
 *.tps
 
 # auto folder when using emacs and auctex
-./auto/*
+auto/
 *.el
 
 # expex forward references with \gathertags
@@ -324,3 +324,18 @@ TSWLatexianTemp*
 # option is specified. Footnotes are the stored in a file with suffix Notes.bib.
 # Uncomment the next line to have this generated file ignored.
 #*Notes.bib
+
+## Additional common output and temporary files
+# Generic temporary files
+*.tmp
+*.temp
+
+# Generic compressed files (beyond synctex.gz)
+*.gz
+
+# Generic backup files
+*~
+
+# Operating system files
+.DS_Store
+Thumbs.db
