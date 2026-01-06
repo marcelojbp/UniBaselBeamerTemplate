@@ -330,12 +330,9 @@ auto/
 *.tmp
 *.temp
 
-# Generic compressed files (beyond synctex.gz)
-*.gz
-
 # Generic backup files
 *~
 
-# Operating system files
+# Operating system files (consider using global gitignore)
 .DS_Store
 Thumbs.db
