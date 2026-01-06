@@ -1,0 +1,48 @@
+\NeedsTeXFormat{LaTeX2e}
+\ProvidesPackage{unibaselcolor}[2026/01/06 University of Basel colour palette]
+
+\RequirePackage{xcolor}
+
+% -----------------------------------------------------------------------------
+% University of Basel corporate palette (RGB)
+% Source: unibasel_colours.pdf (10 colours; order is defined, first is Mint).
+% We define *all* colours from the palette here, even if not used by the theme.
+% -----------------------------------------------------------------------------
+
+% 1 — Mint (primary supporting colour)
+\definecolor{unibasMint}{RGB}{165,215,210}
+
+% 2 — Turquoise
+\definecolor{unibasTurquoise}{RGB}{30,165,165}
+
+% 3 — Anthracite (dark text alternative)
+\definecolor{unibasAnthracite}{RGB}{45,55,60}
+
+% 4 — Grey
+\definecolor{unibasGrey}{RGB}{140,145,150}
+
+% 5 — Basel Red (primary brand colour)
+\definecolor{unibasRed}{RGB}{210,5,55}
+
+% 6 — Pink
+\definecolor{unibasPink}{RGB}{235,130,155}
+
+% 7 — Light Grey
+\definecolor{unibasLightGrey}{RGB}{190,195,200}
+
+% 8 — Petrol (deep teal)
+\definecolor{unibasPetrol}{RGB}{0,110,110}
+
+% 9 — Black
+\definecolor{unibasBlack}{RGB}{0,0,0}
+
+% 10 — White
+\definecolor{unibasWhite}{RGB}{255,255,255}
+
+% Convenience aliases (British spelling, etc.)
+\colorlet{unibasGray}{unibasGrey}
+
+% A very light neutral background used by the theme (derived, not in palette)
+% Keep it subtle to preserve a clean, print-friendly look.
+\definecolor{unibasPaper}{RGB}{248,248,248}
+
