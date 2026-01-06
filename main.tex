@@ -1,0 +1,39 @@
+\documentclass{unibaselbeamer}
+
+% Theme variants: white (default), mint, red
+\themecolor{white} % Mint accent variant
+% Optional: show a subtle footline that matches the accent
+% \footlinecolor{unibasTurquoise}
+
+% Optional: load your personal customizations (TOC slides, helper macros, etc.)
+\input{customize.tex}
+
+% meta-data
+\title{The role of entropy in Beamer themes}
+\author{Your Name}
+\date{\today}
+
+\begin{document}
+
+\maketitle
+
+\begin{frame}{Outline}
+  \tableofcontents
+\end{frame}
+
+\section{Introduction}
+\begin{frame}{A first slide}
+  \begin{itemize}
+    \item Mint theme uses petrol for structure and turquoise for block headers.
+    \item Alert text is Basel red: \alert{important}.
+    \item Links appear in petrol: \hrefcol{https://www.unibas.ch}{unibas.ch}
+  \end{itemize}
+
+  \begin{block}{A block}
+    This is a regular block.
+  \end{block}
+\end{frame}
+
+\backmatter
+
+\end{document}
